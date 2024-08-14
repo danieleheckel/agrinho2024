@@ -1,0 +1,80 @@
+@font-face {
+    font-family: '1';
+    src: url('/fontes/fonte1/ec.TTF');
+    font-weight: normal;
+    
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: '2';
+    src: url('/fontes/fonte2/MADE\ Mirage\ Medium\ PERSONAL\ USE.otf');
+    font-weight: normal;
+    
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: '3';
+    src: url('/fontes/fonte2/MADE\ Mirage\ Regular\ PERSONAL\ USE.otf');
+    font-weight: normal;
+    
+    font-style: normal;
+  }
+
+*{
+    margin-left: 24px;
+    margin-top: 0px;
+    margin-right: 24px;
+    background-color: #2a1966;
+  }
+
+h1{
+    font-family: '1';
+    text-align: center;
+    font-size: 50px;
+    background-image: linear-gradient(to right,#9d7af0,#5743a3,#2a1966);
+    color: #fff;
+}
+
+h2 {
+    font-size: 15px;
+    text-align: center;
+    font-family: '3';
+    background-color: #e6e3f0;
+    
+}
+
+p {
+    font-family: '2';
+    color: #2a1966;
+    background-color: #e6e3f0;
+}
+
+.livros{
+        border: #2a1966;
+        border-width: 2px; 
+        border-style: dashed; 
+        border-color: #a695eb;
+        text-align: left;
+        padding: 0,5px;
+        margin: 3px,5px,3px,5px;
+        background-color: #e6e3f0;
+}
+
+ul{
+    background-color: #e6e3f0;
+}
+
+a {
+    text-decoration: none;
+    background-color: #e6e3f0;
+}
+
+img{
+    right: 30%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
